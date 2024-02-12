@@ -5,45 +5,16 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Music]
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-arch = "both"
-
-[Reddit-Extended]
-enabled = true
-app-name = "Reddit"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-patches"
-cli-source = "YT-Advanced/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-
 [Music-Extended]
-enabled = true
-app-name = "Music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-patches"
-cli-source = "YT-Advanced/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-arch = "both"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
+included-patches = "'Hide voice search button'"
 
 [YouTube-Extended]
-enabled = true
-app-name = "YouTube"
+aapkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-patches"
-cli-source = "YT-Advanced/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
+included-patches = "'Hide voice search button'"
